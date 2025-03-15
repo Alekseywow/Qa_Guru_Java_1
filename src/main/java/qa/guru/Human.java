@@ -46,8 +46,9 @@ public class Human {
     }
 
     void printSomeValue(int i, String str, List<String> list){
-        System.out.println(i + " " + str + " " + list);
+        System.out.println("int: " + i + ", string: " + str + ", list " + list);
     }
+
 
 
     @Override
