@@ -82,13 +82,13 @@ public class Main {
 
         // Циклы ( наборы данных )
 
-//        for( int i = 0 ; i < lecturesArray.length ; i++) {
-//            System.out.println(lecturesArray[i]);
-//        }
-//
-//        for ( int i = lecturesArray.length - 1; i >= 0 ; i--) {
-//            System.out.println(lecturesArray[i]);
-//        }
+        for( int i = 0 ; i < lecturesArray.length ; i++) {
+            System.out.println(lecturesArray[i]);
+        }
+
+        for ( int i = lecturesArray.length - 1; i >= 0 ; i--) {
+            System.out.println(lecturesArray[i]);
+        }
 
         for (String lectureName : lectureSet) {
             if (!lectureName.startsWith(("j"))) {
@@ -100,10 +100,10 @@ public class Main {
 
         int i = 0;
 
-//        while (i < lecturesArray.length) {
-//            System.out.println(lecturesArray[1]);
-//            i++;
-//        }
+        while (i < lecturesArray.length) {
+            System.out.println(lecturesArray[1]);
+            i++;
+        }
 
 
     }
